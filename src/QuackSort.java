@@ -57,7 +57,6 @@ public class QuackSort <T extends Comparable<T>> {
 		QuackSort<Integer> q = new QuackSort<Integer>(l);
 		
 		q.sort();
-		q.sort();
 		
 		for (int i : q.getDataList())
 			System.out.println(i);
